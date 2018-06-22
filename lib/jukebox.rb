@@ -19,8 +19,8 @@ def help
 end
 
 def list(songs)
-  songs.each { |song|
-    puts 
+  songs.each { |song, i|
+    puts "#{i+1}. #{song}"
   }
 end
 
