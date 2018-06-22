@@ -40,6 +40,8 @@ def play(my_songs)
   input = gets.chomp
   if my_songs[input]
     system "open #{my_songs[input]}"
+  else
+    
   end
   
 end
