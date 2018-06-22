@@ -11,6 +11,7 @@ songs = [
 ]
 
 def say_hello(name)
-  puts "May I have your name?"
-  name = 
+  "Hi #{name}!"
 end
+
+puts "Enter your name: "
