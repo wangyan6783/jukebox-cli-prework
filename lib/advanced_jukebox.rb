@@ -39,8 +39,8 @@ def play(my_songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
   if my_songs[input]
-    system "open #{my_songs[input]}"
     puts "Playing #{input}"
+    system "open #{my_songs[input]}"
   else
     puts "Invalid input, please try again"
   end
