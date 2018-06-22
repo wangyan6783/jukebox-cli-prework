@@ -29,7 +29,7 @@ def play(songs)
   input = gets.chomp
   if songs.include?(input)
     puts "Playing #{input}"
-  elsif songs[input.to_i - 1]
+  elsif 1..songs.length.includes?(input.to_i)
     puts "Playing #{songs[input.to_i-1]}"
   else
     puts "Invalid input, please try again"
