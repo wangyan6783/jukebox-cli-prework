@@ -22,4 +22,4 @@ def list(songs)
   puts songs
 end
 
-list
+list(songs)
