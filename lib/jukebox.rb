@@ -43,6 +43,12 @@ def run
   loop do
     puts "Please enter a command:"
     command = gets.chomp
-    
+    if command == help
+      help
+    elsif command == list
+      list(songs)
+    elsif command == play
+      play(songs)
+    end
   end
 end
