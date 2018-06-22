@@ -40,6 +40,9 @@ end
 
 def run
   help
-  puts "Please enter a command:"
-  command = gets.chomp
+  loop do
+    puts "Please enter a command:"
+    command = gets.chomp
+    
+  end
 end
