@@ -20,9 +20,8 @@ def help
 - exit : exits this program"
 end
 
-
-
 def list(my_songs)
+  songs = my_songs.keys
   #this method is different! Collect the keys of the my_songs hash and 
   #list the songs by name
 end
