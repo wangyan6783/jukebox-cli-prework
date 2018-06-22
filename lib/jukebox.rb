@@ -21,3 +21,5 @@ end
 def list(songs)
   puts songs
 end
+
+list
